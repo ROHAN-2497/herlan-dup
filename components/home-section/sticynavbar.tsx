@@ -1,10 +1,11 @@
 import Image from "next/image";
 import React from "react";
+import Menu from "../ui/menu";
 
 const SticyNavbar = () => {
   return (
     <div className="py-4">
-      <div className="container">
+      <div className="container flex">
         {" "}
         <div>
           <Image
@@ -14,7 +15,9 @@ const SticyNavbar = () => {
             alt=""
           />
         </div>
-        <div></div>
+        <div>
+          <Menu />
+        </div>
         <div></div>
       </div>
     </div>

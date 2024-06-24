@@ -7,8 +7,8 @@ const Navbar = () => {
       <div className="container md:flex justify-between items-center py-2">
         <div className="flex gap-1 py-2">
           {" "}
-          <MapPinIcon />
-          <p className=""> Store Locator</p>
+          <MapPinIcon className="cursor-pointer" />
+          <p className="cursor-pointer"> Store Locator</p>
         </div>
         <Input
           placeholder="search products..."
@@ -16,8 +16,8 @@ const Navbar = () => {
         />
         <div className="flex gap-1 py-2">
           {" "}
-          <User />
-          <p>My Account</p>
+          <User className="cursor-pointer" />
+          <p className="cursor-pointer">My Account</p>
         </div>{" "}
       </div>
     </div>
