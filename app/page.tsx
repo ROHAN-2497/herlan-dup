@@ -1,9 +1,9 @@
-import { Button } from "@/components/ui/button";
+import Navbar from "@/components/home-section/navbar";
 
 export default function Home() {
   return (
     <main>
-      <Button variant={"destructive"}>add</Button>
+      <Navbar />
     </main>
   );
 }
