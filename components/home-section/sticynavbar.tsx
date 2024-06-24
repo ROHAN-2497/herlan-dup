@@ -1,11 +1,12 @@
 import Image from "next/image";
 import React from "react";
 import Menu from "../ui/menu";
+import { ShoppingCart } from "lucide-react";
 
 const SticyNavbar = () => {
   return (
     <div className="py-4">
-      <div className="container flex">
+      <div className="container flex items-center justify-between">
         {" "}
         <div>
           <Image
@@ -15,10 +16,19 @@ const SticyNavbar = () => {
             alt=""
           />
         </div>
-        <div>
+        <div className="flex items-center">
           <Menu />
+          <p className="text-red-500">Herlan Exclusive</p>
         </div>
-        <div></div>
+        <div className="flex gap-5">
+          <p>Career</p>
+          <p>Blog</p>
+        </div>
+        <div className="flex gap-2">
+          <p>$</p>
+          <p>0</p>
+          <ShoppingCart />
+        </div>
       </div>
     </div>
   );
