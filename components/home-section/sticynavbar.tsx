@@ -22,12 +22,12 @@ const SticyNavbar = () => {
         </div>
         <div className="flex gap-5">
           <p>Career</p>
-          <p>Blog</p>
-        </div>
-        <div className="flex gap-2">
-          <p>$</p>
-          <p>0</p>
-          <ShoppingCart />
+          <p>Blog</p>{" "}
+          <div className="flex gap-2">
+            <p>$</p>
+            <p>0</p>
+            <ShoppingCart />
+          </div>
         </div>
       </div>
     </div>
