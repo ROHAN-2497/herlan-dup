@@ -1,6 +1,6 @@
 import Banner from "@/components/home-section/banner";
-import Category from "@/components/home-section/category";
 import Navbar from "@/components/home-section/navbar";
+import ProductSeling from "@/components/home-section/productSeling";
 import SticyNavbar from "@/components/home-section/sticynavbar";
 
 export default function Home() {
@@ -9,7 +9,7 @@ export default function Home() {
       <Navbar />
       <SticyNavbar />
       <Banner />
-      <Category />
+      <ProductSeling />
     </main>
   );
 }

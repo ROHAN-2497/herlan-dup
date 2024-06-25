@@ -5,7 +5,7 @@ import { ShoppingCart } from "lucide-react";
 
 const SticyNavbar = () => {
   return (
-    <div className="py-4">
+    <div className="py-4 sticky">
       <div className="container flex items-center justify-between">
         {" "}
         <div>
