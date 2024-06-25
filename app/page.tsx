@@ -9,7 +9,13 @@ export default function Home() {
       <Navbar />
       <SticyNavbar />
       <Banner />
-      <ProductSeling />
+      <section className="py-10 bg-slate-100 ">
+        <div className="grid grid-cols-6 gap-2 container mx-auto items-center justify-center w-full">
+          {[...Array(18)].map((_, i) => (
+            <ProductSeling key={i} />
+          ))}
+        </div>
+      </section>
     </main>
   );
 }
