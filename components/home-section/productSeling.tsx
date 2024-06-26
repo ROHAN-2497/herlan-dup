@@ -1,8 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 
-import Image from "next/image";
-
 const ProductSeling = () => {
   return (
     <div className="bg-white">
